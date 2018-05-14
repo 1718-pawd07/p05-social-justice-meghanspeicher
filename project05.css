@@ -1,0 +1,87 @@
+/* Meghan Speicher
+Project 05 CSS
+May 8, 2018 */
+
+/* The universal selector */
+* {
+
+}
+
+
+body{
+background-color: #D6EAF8;
+}
+
+/*This is the title*/
+header {
+background-color: #5DADE2;
+text-align: center;
+border-bottom: 5px solid blue; 
+}
+
+.p1 {
+font-family: sans-serif;
+font-size: 18px;
+}
+
+/*This is the logo at the top*/
+.logo {
+float: left;
+border: 5px dashed MIDNIGHTBLUE;
+}
+.clear {
+clear: both;
+}
+
+
+/* These are the 5 pictures */
+.photo {
+height: 185px;
+border: 3px dotted DODGERBLUE;
+padding-bottom: 2px;
+}
+
+
+.map {
+height: 150px;
+float: right;
+border: 5px solid ROYALBLUE; 
+}
+
+footer {
+background-color: LIGHTSKYBLUE;
+border-top: 5px solid DEEPSKYBLUE;
+}
+
+a:link{
+color:blue;
+text-decoration: underline;
+}
+
+a:visited {
+color: purple;
+text-decoration: underline;
+}
+
+a:hover, a:focus {
+color: red;
+text-decoration:none;
+font-size: 20pt;
+}
+
+a:active {
+color: orange;
+}
+
+h3 {
+color: blue;
+font-family: "Lucida Handwriting", cursive, "times new roman";
+}
+
+h1 {
+color: black;
+text-decoration: underline;
+}
+
+
+
